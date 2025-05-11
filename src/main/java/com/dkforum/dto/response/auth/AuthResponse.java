@@ -1,6 +1,6 @@
 package com.dkforum.dto.response;
 
-import com.dkforum.core.model.User;
+import com.dkforum.core.model.UserEntity;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -8,10 +8,10 @@ import lombok.Data;
 @Data
 public class AuthResponse {
 
-    public AuthResponse(String accessToken, String refreshToken, User user) {
+    public AuthResponse(String accessToken, String refreshToken, UserEntity userEntity) {
         this.accessToken = accessToken;
         this.refreshToken = refreshToken;
-        this.user = user;
+        this.userEntity = userEntity;
     }
 
     public AuthResponse() {
@@ -23,5 +23,5 @@ public class AuthResponse {
     private String refreshToken;
 
     @JsonProperty("user")
-    private User user;
+    private UserEntity userEntity;
 }
