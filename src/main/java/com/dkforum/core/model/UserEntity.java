@@ -1,21 +1,20 @@
 package com.dkforum.core.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
+import lombok.Getter;
 
 import java.util.List;
 import java.util.UUID;
 
 @Entity
 @Table(name = "users")
-public class User {
+public class UserEntity {
 
-    public User() {
-    }
+    public UserEntity() {}
 
-    public User(String email, UUID uuid, String username, String realname, String password){
+    public UserEntity(String email, UUID uuid, String username, String realname, String password){
         this.username = username;
         this.email = email;
         this.password = password;

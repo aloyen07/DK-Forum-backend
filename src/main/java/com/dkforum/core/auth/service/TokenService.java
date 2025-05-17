@@ -1,4 +1,4 @@
-package com.dkforum.core.service;
+package com.dkforum.core.auth.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

@@ -1,4 +1,4 @@
-package com.dkforum.dto.request;
+package com.dkforum.dto.request.auth;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

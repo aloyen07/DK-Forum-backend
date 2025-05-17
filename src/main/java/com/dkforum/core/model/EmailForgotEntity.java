@@ -5,8 +5,14 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "email_verification")
-public class EmailVerification {
+public class EmailForgotEntity {
 
+    public EmailForgotEntity(String token) {
+        this.token = token;
+    }
+
+    public EmailForgotEntity() {
+    }
 
     private String token;
 }

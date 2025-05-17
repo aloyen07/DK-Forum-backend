@@ -1,10 +1,9 @@
-package com.dkforum.dto.request;
+package com.dkforum.dto.request.auth;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.Email;
 
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Data

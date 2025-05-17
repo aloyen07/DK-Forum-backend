@@ -1,4 +1,4 @@
-package com.dkforum.dto.response;
+package com.dkforum.dto.response.auth;
 
 import org.springframework.data.util.Pair;
 

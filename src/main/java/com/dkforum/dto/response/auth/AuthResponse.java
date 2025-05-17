@@ -1,4 +1,4 @@
-package com.dkforum.dto.response;
+package com.dkforum.dto.response.auth;
 
 import com.dkforum.core.model.UserEntity;
 import com.fasterxml.jackson.annotation.JsonProperty;

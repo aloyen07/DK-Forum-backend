@@ -1,11 +1,12 @@
-package com.dkforum.ann;
+package com.dkforum.core.auth;
 
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.dkforum.Application;
+import com.dkforum.core.auth.ann.Auth;
+import com.dkforum.core.auth.service.TokenService;
 import com.dkforum.core.model.UserEntity;
 import com.dkforum.core.repository.UserRepository;
-import com.dkforum.core.service.TokenService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpStatus;

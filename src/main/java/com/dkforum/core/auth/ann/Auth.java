@@ -1,4 +1,4 @@
-package com.dkforum.ann;
+package com.dkforum.core.auth.ann;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
